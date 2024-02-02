@@ -3,25 +3,38 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #e8eaf6;
-    color: #3f51b5;
+    background-color: #121212; /* Dark background for dark mode */
+    color: #e0e0e0; /* Light text for readability */
+}
+
+.content-wrapper {
+    min-height: 100vh; /* Fills the full height of the viewport */
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    background: #3f51b5;
+    background: transparent;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
+#logo {
+    max-width: 200px; /* Adjusts the logo size */
+    height: auto; /* Keeps the logo aspect ratio */
+    margin-bottom: 20px;
+}
+
 nav {
-    background: #444;
+    background: #1c1c1c; /* Slightly lighter dark for contrast */
+    color: #fff;
     text-align: center;
     padding: 0.5rem 0;
 }
 
 nav a {
-    color: white;
+    color: #e0e0e0; /* Light link color for readability */
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -29,16 +42,14 @@ nav a {
 
 main {
     padding: 20px;
+    flex: 1; /* Allows main content to expand */
 }
 
 footer {
-    background: #333;
-    color: white;
+    background: #1c1c1c; /* Consistent with nav background */
+    color: #e0e0e0;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 section {
