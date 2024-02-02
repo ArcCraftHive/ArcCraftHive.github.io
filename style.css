@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #e8eaf6;
+    color: #3f51b5;
 }
 
 header {
-    background: #333;
+    background: #3f51b5;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -39,5 +39,8 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    
+}
+
+section {
+    margin-bottom: 20px;
 }
